@@ -18,10 +18,10 @@
             
         }
         .search-btn {
-   
-   background-color: #0e67ab ;  
-    color: white ;               
-    border-color: #0066cc ;     
+    /* Colors */
+    background-color: #0e67ab !important;  /* Blue background */
+    color: white !important;               /* White text */
+    border-color: #0066cc !important;     /* Matching border */
     border-radius: 10px;
     /* Text */
     font-size: 0.85rem;
@@ -31,20 +31,20 @@
 }
 /* Hover State */
 .search-btn:hover {
-    background-color: #207fdd ;  
+    background-color: #207fdd !important;  /* Darker blue */
     color: white !important;
     transform: translateY(-1px);
 }
 
 /* Active State */
 .search-btn:active {
-    background-color: #003569 t;
+    background-color: #003569 !important;
     transform: translateY(0);
 }
 
 /* Focus State (accessibility) */
 .search-btn:focus {
-    box-shadow: 0 0 0 0.25rem rgba(0, 102, 204, 0.3) ;
+    box-shadow: 0 0 0 0.25rem rgba(0, 102, 204, 0.3) !important;
 }
 
 /* Mobile Responsiveness */
@@ -111,7 +111,7 @@
   .flip-card-inner {
     position: relative;
     width: 300px;
-    height: 400px; 
+    height: 400px; /* Match card dimensions */
     transform-style: preserve-3d;
     transition: transform 0.6s ease-in-out;
   }
@@ -260,15 +260,15 @@
             <div class="col-lg-4">
               <div class="flip-card">
                 <div class="flip-card-inner">
-                  
+                  <!-- Front Side -->
                   <div class="flip-card-front">
                     <div class="card text-white position-relative" style="width: 300px; height: 400px; border: none; overflow: hidden;">
-                      
+                      <!-- Background Image -->
                       <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center" 
                            style="background: linear-gradient(rgba(211, 7, 7, 0.5), rgba(206, 11, 118, 0.5)), 
                                   url('https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1365&q=80'); 
                                   background-size: cover; background-position: center; height: 100%;">
-                        
+                        <!-- Text Overlay -->
                         <h5 class="card-title text-center" style="font-weight:900; font-size:xx-large; font-family:'Times New Roman', Times, serif;">
                           Develop your Inner Genius
                         </h5>
@@ -278,7 +278,7 @@
                       </div>
                     </div>
                   </div>
-                 
+                  <!-- Back Side -->
                   <div class="flip-card-back">
                     <div class="card text-white position-relative d-flex align-items-center justify-content-center" 
                     style="background: linear-gradient(rgba(211, 7, 7, 0.5), rgba(206, 11, 118, 0.5)), 
@@ -364,7 +364,7 @@
         </div>
     </div>
 
-    
+    <!-- Partnership Section -->
     <section class="partnership-section">
         <div class="container">
             <h1 class="text-center mb-5">Linkage and Collaboration</h1>
